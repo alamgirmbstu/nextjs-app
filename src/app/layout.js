@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <div class="flex flex-col h-screen justify-between">
+        <div className="flex flex-col h-screen justify-between">
           <Menu className="h-10" />
           <div className=" mb-auto mx-10 h-full ">{children}</div>
           <FooterWithSitemap className="h-10" />
